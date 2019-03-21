@@ -1,3 +1,50 @@
+**Git Basic Common Command**
+
+Git init command for initialition:-
+
+    git init
+    
+Git confi command:-
+
+    git config --global user.name "your_user_name_of_github"
+    git config --global user.email "your_email_id_of_github"
+    
+Git add command for all file:-
+
+   way (1.)
+   
+        git add .
+     
+   way(2.)
+   
+        git add -a
+        
+    way(3.)
+   
+        git add -A
+    
+ for single file:-
+ 
+        git add [file_name]
+
+Git commit command:-
+    
+     git commit -m “[ Type in the commit message]”
+     
+Git check file status( if green file is added or if red not added to git):-
+
+    git status
+
+Connect to a remote repository:-
+
+        git remote add origin https://github.com/your_user_name/your_github_repo_link
+
+
+push your repo on github:-
+
+        git push origin master
+
+
 **Git Important Command for ubantu or linux**
 
 install git on ubantu:

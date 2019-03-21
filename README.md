@@ -19,7 +19,7 @@ Git add command for all file:-
    
         git add -a
         
-    way(3.)
+   way(3.)
    
         git add -A
     
@@ -112,7 +112,3 @@ Testing your SSH connection:
 after that you clone your private repo:
 
     git clone git@github.com:user_name/repo_name.git
-
-
-
-
